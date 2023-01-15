@@ -55,11 +55,16 @@ p {
 .js-country-list {
   display: flex;
   gap: 15px;
+  flex-wrap: wrap;
+}
+
+.js-country-list li {
+  width: 100%;
 }
 
 .js-country-tags {
   font-family: 'Monserat', sans-serif;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 900;
   line-height: 1;
   letter-spacing: 0.03em;
@@ -67,7 +72,7 @@ p {
 
 .js-counrty-information {
   font-family: 'Monserat', sans-serif;
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 400;
   line-height: 1;
   letter-spacing: 0.03em;
@@ -76,10 +81,6 @@ p {
 .country-list {
   display: flex;
   gap: 15px;
-  flex-wrap: wrap;
-}
-.country-list li {
-  width: 100%;
 }
 
 .js-countries-list {
@@ -87,7 +88,6 @@ p {
   justify-content: flex-start;
   align-items: center;
   gap: 15px;
-  width: 100%;
 }
 .countries-name {
   font-family: 'Monserat', sans-serif;
