@@ -18,3 +18,78 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+ul {
+  list-style: none;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.js-flag-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+.country-name {
+  font-family: 'Monserat', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+
+.js-country-list {
+  display: flex;
+  gap: 15px;
+}
+
+.js-country-tags {
+  font-family: 'Monserat', sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+
+.js-counrty-information {
+  font-family: 'Monserat', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+
+.country-list {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.js-countries-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+.countries-name {
+  font-family: 'Monserat', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: calc(34 / 32);
+  letter-spacing: 0.03em;
+}

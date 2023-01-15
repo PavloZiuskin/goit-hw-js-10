@@ -44,6 +44,6 @@ function onInputSearch(e) {
     .catch(err => {
       clearCountriesList();
       clearCountryCard();
-      Notify.failure('Oops, there is no country with that name');
+      Notify.failure(`Oops, there is no country with that name ${err}`);
     });
 }

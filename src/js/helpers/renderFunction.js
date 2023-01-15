@@ -4,9 +4,9 @@ export function createCountriesList(countries) {
   refs.listCountries.innerHTML = countries
     .map(
       ({ flags: { svg }, name: { official } }) => `      
-      <li>
-        <img src="${svg}" alt="country flag" width='32' height='32'>
-        <p>${official}</p>
+      <li class="js-countries-list">
+        <img src="${svg}" alt="country flag" width='40' height='40'>
+        <p class="countries-name">${official}</p>
       </li>`
     )
     .join('');
@@ -21,18 +21,22 @@ export function createCountryCard(country) {
         capital,
         population,
         languages,
-      }) => `       
-   <img src="${svg}" alt="country" width='32' height='32' >
-    <p>${official}</p>
-      <ul>
+      }) => `    
+      <div class="js-flag-container">
+        <img src="${svg}" alt="country" width='40' height='40' >
+        <p class="country-name">${official}</p>
+      </div>   
+      <ul class="js-country-list>
         <li>
-          <p>Capital: ${capital}</p>
+          <p class="js-country-tags">Capital:<span class="js-counrty-information">${capital}</span></p>
         </li>
         <li>
-          <p>Population: ${population}</p>
+          <p class="js-country-tags">Population:<span class="js-counrty-information">${population}</span></p>
         </li>
         <li>
-          <p>Languages: ${Object.values(languages).join(', ')}</p>
+          <p class="js-country-tags">Languages:<span class="js-counrty-information">${Object.values(
+            languages
+          ).join(', ')}</span></p>
         </li>
       </ul>`
     )
