@@ -78,6 +78,9 @@ p {
   gap: 15px;
   flex-wrap: wrap;
 }
+.country-list li {
+  width: 100%;
+}
 
 .js-countries-list {
   display: flex;
