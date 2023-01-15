@@ -87,7 +87,6 @@ p {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 15px;
 }
 .countries-name {
   font-family: 'Monserat', sans-serif;
