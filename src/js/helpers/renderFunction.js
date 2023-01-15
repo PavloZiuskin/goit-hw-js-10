@@ -26,7 +26,8 @@ export function createCountryCard(country) {
         <img src="${svg}" alt="country" width='40' height='40' >
         <p class="country-name">${official}</p>
       </div>   
-      <ul class="js-country-list>
+      <ul class="js-country-list">
+
         <li>
           <p class="js-country-tags">Capital: <span class="js-counrty-information">${capital}</span></p>
         </li>
@@ -38,6 +39,7 @@ export function createCountryCard(country) {
             languages
           ).join(', ')}</span></p>
         </li>
+
       </ul>`
     )
     .join('');
