@@ -81,18 +81,20 @@ p {
 .country-list {
   display: flex;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 .js-countries-list {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  gap: 10px;
   width: 100%;
 }
 .countries-name {
   font-family: 'Monserat', sans-serif;
-  font-size: 28px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: calc(34 / 32);
+  line-height: 1;
   letter-spacing: 0.03em;
 }
