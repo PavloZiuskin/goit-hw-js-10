@@ -28,13 +28,13 @@ export function createCountryCard(country) {
       </div>   
       <ul class="js-country-list>
         <li>
-          <p class="js-country-tags">Capital:<span class="js-counrty-information">${capital}</span></p>
+          <p class="js-country-tags">Capital: <span class="js-counrty-information">${capital}</span></p>
         </li>
         <li>
-          <p class="js-country-tags">Population:<span class="js-counrty-information">${population}</span></p>
+          <p class="js-country-tags">Population: <span class="js-counrty-information">${population}</span></p>
         </li>
         <li>
-          <p class="js-country-tags">Languages:<span class="js-counrty-information">${Object.values(
+          <p class="js-country-tags">Languages: <span class="js-counrty-information">${Object.values(
             languages
           ).join(', ')}</span></p>
         </li>
